@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-bar">
+            <h2>SocialMed</h2>
+
+            <div class="hamburger">
+                <i class="fa-solid fa-bars open"></i>
+                <i class="fa-solid fa-xmark close"></i>
+              </div>
+
+            <div class="mediaQ">
+                <div class="nav-search">
+                    <input type="search" name="Search" placeholder="Search" id="search" />
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="nav-links">
+                    <a href="" class="acct">My Account</a>
+                    <a href="">Profile</a>
+                    <a href="">Friends</a>
+                    <a href="" class="active">Logout</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Side bar -->
+    <div class="flex-wrapper">
+        <div class="side-bar">
+            <a href="" class="this-link"><span> Chat</span> <i class="fa-solid fa-comment-dots this-icon"></i></a>
+            <a href="" class="this-link"><span> Watch video</span> <i class="fa-solid fa-video this-icon"></i></a>
+            <a href="" class="this-link"><span> Activity</span> <i class="fa-solid fa-clipboard-list this-icon"></i></a>
+            <a href="" class="this-link"><span> Timeline</span> <i
+                    class="fa-brands fa-ioxhost this-icon"></i></i></i></a>
+            <a href="" class="this-link"><span> Archives</span> <i class="fa-solid fa-box-archive this-icon"></i></a>
+            <a href="" class="this-link"><span> Suggestions</span> <i
+                    class="fa-solid fa-person-circle-check this-icon"></i></i></a>
+            <a href="" class="this-link"><span> Dating</span> <i
+                    class="fa-solid fa-heart-circle-check this-icon"></i></a>
+            <a href="" class="this-link"><span> Saves</span> <i class="fa-solid fa-bookmark this-icon"></i></a>
+            <a href="" class="this-link"><span> Delete Account</span> <i
+                    class="fa-solid fa-trash-can this-icon"></i></a>
+        </div>
+
+        <!-- Post session -->
+
+        <form name="">
+        <div class="post-section">
+                <input type="text" name="name" id="name" placeholder="Your Name" required/>
+                <textarea name="post" id="post" cols="30" rows="4" placeholder="What's on your mind?" required></textarea>
+                <input type="button" value="Post" id="post-btn" />
+                <!-- <button id="post-btn">post</button> -->
+                
+                
+            </div>
+        </form>
+
+        <hr>
+        <p id="prependd" style="color: red; text-align: center;"></p>
+        <div class="post-section1" ></div>
+        <!-- Post Display Section -->
+
+        <!-- ................... -->
+    </div>
+</body>
+
+</html>
