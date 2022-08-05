@@ -131,11 +131,11 @@ fetchPost()
 
 
 
-
+// The code under this comment is yet to work..you can fix it sha
 for(i=0; i<likeBtn.length; i++){
   for(i=0; i<countLike.length; i++){
     likeBtn[i].addEventListener("click",()=>{
       countLike[i]  + 1
     })
   }
-}                                                                                                                                                          
+}
