@@ -11,7 +11,7 @@ let fetchedPost = document.querySelector(".post-section1");
 let inputName = document.querySelector("#name");
 let inputPost = document.querySelector("#post");
 let inputBtn = document.querySelector("#post-btn");
-let likeBtn = document.querySelector(".this-icon2");
+let likeBtn = document.querySelectorAll("div.reactions .this-icon2");
 let prependText = document.querySelector("#prependd");
 let image = document.querySelector(".output");
 
